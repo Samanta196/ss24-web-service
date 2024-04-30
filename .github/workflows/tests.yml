@@ -1,4 +1,4 @@
-  name: jest-tests
+  name: jest-test
   on: [push]
   jobs:
     build:
@@ -7,5 +7,5 @@
         - uses: actions/checkout@v4
         - name: Install dependencies
           run: npm install
-        - name: Run jest tests
-          run: npm tests
+        - name: Run jest test
+          run: npm test
